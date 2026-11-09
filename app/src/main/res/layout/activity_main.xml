@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/btnCheckHardware"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Check IR Hardware &amp; Frequencies" />
+
+    <Button
+        android:id="@+id/btnTransmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transmit Pixmob Instruction" />
+
+</LinearLayout>
